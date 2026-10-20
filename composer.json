@@ -1,0 +1,27 @@
+{
+    "name": "setalabs/setalabs-php-sdk.git",
+    "description": "PHP client for the Setalabs API gateway",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Setalabs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Setalabs\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

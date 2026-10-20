@@ -1,0 +1,45 @@
+# Composer
+/vendor/
+/composer.lock
+/composer.phar
+/auth.json
+
+# PHPUnit
+/.phpunit.cache/
+/.phpunit.result.cache
+/phpunit.xml
+/coverage/
+/coverage.xml
+/clover.xml
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and agent
+/.idea/
+/.vscode/
+/.cursor/
+/.phpstorm.meta.php
+/.phpactor.json
+/.history/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Logs and caches
+*.log
+*.cache
+.php-cs-fixer.cache
+.phpstan.cache
+
+# Build artifacts
+/build/
+/dist/
